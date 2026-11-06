@@ -1,0 +1,46 @@
+SESSION21
+Bài 4 : Đánh giá công cụ hỗ trợ xử lý lỗi lập trình
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+
+1. Bảng so sánh Google Search và AI Assistant
+
+Độ chính xác
+	Google Search:
+		Ưu: có vote, tích xanh và bình luận để cộng đồng kiểm chứng.
+		Nhược: phải tự lọc, dễ gặp bài không đúng hoàn cảnh của mình.
+	AI Assistant:
+		Ưu: trả lời sát mã lỗi bạn dán vào.
+		Nhược: có thể sai với môi trường cụ thể của bạn.
+
+Tính cập nhật
+	Google Search:
+		Ưu: tìm được tài liệu chính thức và bài mới.
+		Nhược: cũng có bài đã cũ nhiều năm.
+	AI Assistant:
+		Ưu: trả lời ngay lập tức.
+		Nhược: kiến thức dừng ở một thời điểm, có thể không biết lỗi hoặc bản cập nhật mới.
+
+Khả năng giải thích
+	Google Search:
+		Ưu: nhiều góc nhìn, có thảo luận.
+		Nhược: văn phong khó hiểu, không theo trình độ của bạn.
+	AI Assistant:
+		Ưu: giải thích từng bước, hỏi lại được, hợp với người mới.
+		Nhược: nói rất tự tin dù có thể sai.
+
+Rủi ro (Hallucination)
+	Google Search:
+		Thấp: nội dung do người thật viết, có nguồn để kiểm tra.
+		Rủi ro chính là bài lỗi thời.
+	AI Assistant:
+		Cao hơn: có thể bịa lệnh hoặc tùy chọn không tồn tại mà vẫn trình bày như thật.
+
+2. Khi nào bắt buộc dùng Google Search để đảm bảo an toàn cho máy tính
+Khi giải pháp có lệnh nguy hiểm (xóa file, sudo, rm -rf, sửa registry, kill hàng loạt tiến trình):phải đối chiếu tài liệu chính thức hay bài nhiều vote trước khi chạy.
+Khi AI đưa ra lệnh, tên gói hoặc tùy chọn lạ bạn không nhận ra: tìm lại để xác nhận nó có thật.
+Khi cần cài phần mềm hoặc thư viện do AI gợi ý: kiểm tra nguồn chính thống để tránh gói giả mạo, mã độc.
+Nguyên tắc: AI để hiểu và gợi ý hướng đi, Google Search để kiểm chứng trước khi chạy thứ gì có thể làm hỏng máy hoặc mất dữ liệu.
